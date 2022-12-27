@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="td-content">
+  <ul>
+    {{ range (where .Pages "Section" "netlify") }}
+    <li>
+      <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+    </li>
+    {{ end }}
+  </ul>
+  <!-- {{ .Content }} -->
+</div>
+
+{{ end }}
