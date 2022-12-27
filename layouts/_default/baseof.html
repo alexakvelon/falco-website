@@ -4,7 +4,6 @@
     {{ partial "head.html" . }}
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <header>
       {{ partial "navbar.html" . }}
     </header>
