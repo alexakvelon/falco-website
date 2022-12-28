@@ -119,6 +119,10 @@ id = "UA-40398182-19"
 # Additional menu items
 
 [[menu.main]]
+    name = "Test"
+    weight = 20
+    url = "/netlify/"
+[[menu.main]]
     name = "Documentation"
     weight = 40
     url = "/docs/"
